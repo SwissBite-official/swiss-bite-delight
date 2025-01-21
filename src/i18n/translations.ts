@@ -39,7 +39,11 @@ export const translations = {
     about: {
       title: "Švýcarská dokonalost v každém kousku",
       text1: "Ve Swiss Bite kombinujeme staletou tradici švýcarské výroby čokolády s moderními inovacemi pro vytvoření výjimečných čokoládových zážitků.",
-      text2: "Každý kousek je vyroben z pečlivě vybraných ingrediencí s důrazem na detail, zajišťující nejvyšší kvalitu v každém soustu."
+      text2: "Každý kousek je vyroben z pečlivě vybraných ingrediencí s důrazem na detail, zajišťující nejvyšší kvalitu v každém soustu.",
+      team: {
+        title: "Náš tým",
+        description: "Jsme tým nadšených lidí, kteří chtějí přinést švýcarskou kvalitu českým zákazníkům. Naše vášeň pro čokoládu a oddanost kvalitě nás žene kupředu při vytváření výjimečných čokoládových zážitků pro vás."
+      }
     },
     contact: {
       title: "Kontaktujte nás",
@@ -87,7 +91,11 @@ export const translations = {
     about: {
       title: "Swiss Excellence in Every Bite",
       text1: "At Swiss Bite, we combine centuries of Swiss chocolate-making tradition with modern innovation to create exceptional chocolate experiences.",
-      text2: "Each piece is crafted with carefully selected ingredients and meticulous attention to detail, ensuring the highest quality in every bite."
+      text2: "Each piece is crafted with carefully selected ingredients and meticulous attention to detail, ensuring the highest quality in every bite.",
+      team: {
+        title: "Our Team",
+        description: "We are a team of passionate individuals dedicated to bringing Swiss quality to Czech customers. Our love for chocolate and commitment to excellence drives us forward in creating exceptional chocolate experiences for you."
+      }
     },
     contact: {
       title: "Contact Us",

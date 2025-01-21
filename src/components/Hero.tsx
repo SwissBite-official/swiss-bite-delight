@@ -13,7 +13,7 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           src="/lovable-uploads/f30a0668-a4df-4b49-96cb-96c48cb3708a.png"
           alt="Swiss Bite Logo"
-          className="w-64 md:w-96 mb-8"
+          className="w-64 md:w-96 mb-8 hover:scale-105 transition-transform duration-300"
         />
         <motion.h1
           initial={{ opacity: 0 }}
@@ -32,7 +32,12 @@ export const Hero = () => {
           {t('hero.subtitle')}
         </motion.p>
       </div>
-      <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-white to-transparent" />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.7, duration: 0.8 }}
+        className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-white to-transparent"
+      />
     </section>
   );
 };

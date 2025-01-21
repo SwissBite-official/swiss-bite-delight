@@ -30,10 +30,25 @@ export const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="text-lg text-gray-600"
+            className="text-lg text-gray-600 mb-12"
           >
             {t('about.text2')}
           </motion.p>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4 }}
+            className="bg-gradient-to-br from-red-50 to-white p-8 rounded-lg shadow-lg"
+          >
+            <h3 className="text-2xl font-bold mb-4 text-swiss-red">
+              {t('about.team.title')}
+            </h3>
+            <p className="text-lg text-gray-600">
+              {t('about.team.description')}
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>
