@@ -1,24 +1,29 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useNavigate } from "react-router-dom";
 
 export const Products = () => {
   const { t } = useLanguage();
+  const navigate = useNavigate();
 
   const products = [
     {
       name: t('products.milkChocolate.name'),
       description: t('products.milkChocolate.description'),
       image: "/placeholder.svg",
+      path: "/milk-chocolate"
     },
     {
       name: t('products.darkChocolate.name'),
       description: t('products.darkChocolate.description'),
       image: "/placeholder.svg",
+      path: "/dark-chocolate"
     },
     {
       name: t('products.kidsVersion.name'),
       description: t('products.kidsVersion.description'),
       image: "/placeholder.svg",
+      path: "/kids-chocolate"
     },
   ];
 
@@ -53,7 +58,10 @@ export const Products = () => {
                   {product.name}
                 </h3>
                 <p className="text-gray-600">{product.description}</p>
-                <button className="mt-4 px-6 py-2 bg-swiss-gold text-white rounded hover:bg-opacity-90 transition-colors">
+                <button 
+                  onClick={() => navigate(product.path)}
+                  className="mt-4 px-6 py-2 bg-swiss-gold text-white rounded hover:bg-opacity-90 transition-colors"
+                >
                   {t('products.learnMore')}
                 </button>
               </div>
