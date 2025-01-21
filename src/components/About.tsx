@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const About = () => {
+  const { t } = useLanguage();
+  
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -11,7 +14,7 @@ export const About = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold mb-8 text-swiss-red"
           >
-            Swiss Excellence in Every Bite
+            {t('about.title')}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -20,8 +23,7 @@ export const About = () => {
             transition={{ delay: 0.2 }}
             className="text-lg text-gray-600 mb-6"
           >
-            At Swiss Bite, we combine centuries of Swiss chocolate-making tradition
-            with modern innovation to create exceptional chocolate experiences.
+            {t('about.text1')}
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -30,9 +32,7 @@ export const About = () => {
             transition={{ delay: 0.3 }}
             className="text-lg text-gray-600"
           >
-            Each piece is crafted with carefully selected ingredients and
-            meticulous attention to detail, ensuring the highest quality in every
-            bite.
+            {t('about.text2')}
           </motion.p>
         </div>
       </div>

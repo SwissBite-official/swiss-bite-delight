@@ -1,24 +1,27 @@
 import { motion } from "framer-motion";
-
-const products = [
-  {
-    name: "Milk Chocolate",
-    description: "Smooth and creamy Swiss milk chocolate that melts in your mouth",
-    image: "/placeholder.svg",
-  },
-  {
-    name: "Dark Chocolate",
-    description: "Rich and intense dark chocolate for sophisticated palates",
-    image: "/placeholder.svg",
-  },
-  {
-    name: "Kids Version",
-    description: "Fun and delightful chocolate perfect for young chocolate lovers",
-    image: "/placeholder.svg",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Products = () => {
+  const { t } = useLanguage();
+
+  const products = [
+    {
+      name: t('products.milkChocolate.name'),
+      description: t('products.milkChocolate.description'),
+      image: "/placeholder.svg",
+    },
+    {
+      name: t('products.darkChocolate.name'),
+      description: t('products.darkChocolate.description'),
+      image: "/placeholder.svg",
+    },
+    {
+      name: t('products.kidsVersion.name'),
+      description: t('products.kidsVersion.description'),
+      image: "/placeholder.svg",
+    },
+  ];
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -28,7 +31,7 @@ export const Products = () => {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-bold text-center mb-16 text-swiss-red"
         >
-          Our Collection
+          {t('products.title')}
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {products.map((product, index) => (
@@ -51,7 +54,7 @@ export const Products = () => {
                 </h3>
                 <p className="text-gray-600">{product.description}</p>
                 <button className="mt-4 px-6 py-2 bg-swiss-gold text-white rounded hover:bg-opacity-90 transition-colors">
-                  Learn More
+                  {t('products.learnMore')}
                 </button>
               </div>
             </motion.div>

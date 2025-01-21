@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Hero = () => {
+  const { t } = useLanguage();
+  
   return (
     <section className="relative h-screen flex items-center justify-center bg-white overflow-hidden">
       <div className="container mx-auto px-4 flex flex-col items-center">
@@ -18,7 +21,7 @@ export const Hero = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold text-swiss-red text-center mb-6"
         >
-          Experience Swiss Excellence
+          {t('hero.title')}
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -26,7 +29,7 @@ export const Hero = () => {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-xl md:text-2xl text-gray-600 text-center max-w-2xl"
         >
-          Indulge in premium Swiss chocolate crafted with passion and precision
+          {t('hero.subtitle')}
         </motion.p>
       </div>
       <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-white to-transparent" />

@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const Contact = () => {
+  const { t } = useLanguage();
+  
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -11,17 +14,16 @@ export const Contact = () => {
           className="max-w-xl mx-auto text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-swiss-red">
-            Contact Us
+            {t('contact.title')}
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Want to learn more about Swiss Bite or place an order? We'd love to
-            hear from you.
+            {t('contact.description')}
           </p>
           <a
             href="mailto:info@swissbite.com"
             className="inline-block px-8 py-3 bg-swiss-red text-white rounded-lg hover:bg-opacity-90 transition-colors"
           >
-            Get in Touch
+            {t('contact.button')}
           </a>
         </motion.div>
       </div>
