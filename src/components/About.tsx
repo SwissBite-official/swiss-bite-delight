@@ -40,9 +40,9 @@ export const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            className="bg-gradient-to-br from-red-50 to-white dark:to-black p-8 rounded-lg shadow-lg"
+            className="bg-gradient-to-br from-red-50 to-white dark:from-gray-900 dark:to-gray-950 p-8 rounded-lg shadow-lg"
           >
-            <h3 className="text-2xl font-bold mb-4 text-swiss-red">
+            <h3 className="text-2xl font-bold mb-4 text-swiss-red dark:text-swiss-gold">
               {t('about.team.title')}
             </h3>
             <p className="text-lg text-gray-600">
