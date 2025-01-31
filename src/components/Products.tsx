@@ -45,7 +45,7 @@ export const Products = () => {
       transition={{ delay: index * 0.2 }}
       className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
     >
-      <div className="aspect-[3/4] relative">
+      <div className="aspect-[4/3] relative">
         <img
           src={product.image}
           alt={product.name}
