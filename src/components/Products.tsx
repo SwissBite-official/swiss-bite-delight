@@ -25,6 +25,12 @@ export const Products = () => {
       image: "/kids-chocolate.jpg",
       path: "/kids-chocolate"
     },
+    {
+      name: t('products.branches.name'),
+      description: t('products.branches.description'),
+      image: "/branches.jpg",
+      path: "/branches"
+    },
   ];
 
   return (
@@ -38,7 +44,7 @@ export const Products = () => {
         >
           {t('products.title')}
         </motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {products.map((product, index) => (
             <motion.div
               key={product.name}

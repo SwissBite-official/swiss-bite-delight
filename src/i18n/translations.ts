@@ -33,6 +33,15 @@ export const translations = {
         environmental: "Recyklovatelné obaly s edukativními prvky",
         health: "Vyvážený obsah cukru a kvalitního kakaa"
       },
+      branches: {
+        name: "Branches",
+        description: "Branche je výjimečná díky tajnému, jemně se rozpouštějícímu PRALINOVÉMU krému, ukrytému pod vrstvou křupavé mléčné čokolády s lískovými oříšky. Malý moment potěšení pro váš den",
+        production: "Vyrobeno tradičním švýcarským způsobem",
+        ingredients: "Prémiové lískové oříšky a vysoce kvalitní mléčná čokoláda",
+        flavor: "Jemná pralinková náplň s křupavou čokoládovou vrstvou",
+        environmental: "Udržitelná výroba a ekologické balení",
+        health: "Zdroj energie a přírodních antioxidantů"
+      },
       learnMore: "Zjistit více",
       backToHome: "Zpět na hlavní stránku"
     },
@@ -84,6 +93,15 @@ export const translations = {
         flavor: "Gentle and sweet taste",
         environmental: "Recyclable packaging with educational elements",
         health: "Balanced content of sugar and quality cocoa"
+      },
+      branches: {
+        name: "Branches",
+        description: "What makes Branche so special is the secret, tenderly melting PRALINE filling, concealed by a layer of crisp milk hazelnut chocolate. A little moment of pleasure for your day",
+        production: "Made using traditional Swiss methods",
+        ingredients: "Premium hazelnuts and high-quality milk chocolate",
+        flavor: "Delicate praline filling with crispy chocolate coating",
+        environmental: "Sustainable production and eco-friendly packaging",
+        health: "Source of energy and natural antioxidants"
       },
       learnMore: "Learn More",
       backToHome: "Back to Home"
