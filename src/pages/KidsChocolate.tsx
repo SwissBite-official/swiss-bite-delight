@@ -27,7 +27,7 @@ const KidsChocolate = () => {
           </h1>
 
           <img
-            src="/placeholder.svg"
+            src="/kids-chocolate.jpg"
             alt={t('products.kidsVersion.name')}
             className="w-full h-64 object-cover rounded-lg mb-8"
           />

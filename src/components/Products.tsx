@@ -10,19 +10,19 @@ export const Products = () => {
     {
       name: t('products.milkChocolate.name'),
       description: t('products.milkChocolate.description'),
-      image: "/placeholder.svg",
+      image: "/milk-chocolate.jpg",
       path: "/milk-chocolate"
     },
     {
       name: t('products.darkChocolate.name'),
       description: t('products.darkChocolate.description'),
-      image: "/placeholder.svg",
+      image: "/dark-chocolate.jpg",
       path: "/dark-chocolate"
     },
     {
       name: t('products.kidsVersion.name'),
       description: t('products.kidsVersion.description'),
-      image: "/placeholder.svg",
+      image: "/kids-chocolate.jpg",
       path: "/kids-chocolate"
     },
   ];
