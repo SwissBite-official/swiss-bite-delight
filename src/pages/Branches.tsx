@@ -8,7 +8,7 @@ const Branches = () => {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-black">
       <div className="container mx-auto px-4 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">
@@ -27,7 +27,7 @@ const Branches = () => {
           </h1>
 
           <img
-            src="/branches.jpg"
+            src="/branches_wide.jpg"
             alt={t('products.branches.name')}
             className="w-full h-64 object-cover rounded-lg mb-8"
           />

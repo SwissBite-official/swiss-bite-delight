@@ -5,7 +5,7 @@ export const Hero = () => {
   const { t } = useLanguage();
   
   return (
-    <section className="relative h-screen flex items-center justify-center bg-white overflow-hidden">
+    <section className="relative h-screen flex items-center justify-center bg-white overflow-hidden dark:bg-black">
       {/* Chocolate pieces animation */}
 
       {/* Gold accent lines */}
@@ -42,12 +42,13 @@ export const Hero = () => {
           {t('hero.subtitle')}
         </motion.p>
       </div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.7, duration: 0.8 }}
-        className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-white to-transparent"
-      />
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.8 }}
+            transition={{ delay: 0.7, duration: 0.8 }}
+            className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-white dark:from-red-600
+          to-transparent"
+        />
     </section>
   );
 };

@@ -15,28 +15,36 @@ import Branches from "@/pages/Branches.tsx";
 
 const queryClient = new QueryClient();
 
+// Detect system theme preference
+const getSystemTheme = () => {
+  if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    return "dark";
+  }
+  return "light";
+};
+
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-      <TooltipProvider>
-        <LanguageProvider>
-          <LanguageSwitcher />
-          <ThemeToggle />
-          <Toaster />
-          <Sonner />
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={<Index />} />
-              <Route path="/milk-chocolate" element={<MilkChocolate />} />
-              <Route path="/dark-chocolate" element={<DarkChocolate />} />
-              <Route path="/kids-chocolate" element={<KidsChocolate />} />
-              <Route path="/branches" element={<Branches />} />
-            </Routes>
-          </BrowserRouter>
-        </LanguageProvider>
-      </TooltipProvider>
-    </ThemeProvider>
-  </QueryClientProvider>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider defaultTheme={getSystemTheme()} storageKey="vite-ui-theme">
+        <TooltipProvider>
+          <LanguageProvider>
+            <LanguageSwitcher />
+            <ThemeToggle />
+            <Toaster />
+            <Sonner />
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/milk-chocolate" element={<MilkChocolate />} />
+                <Route path="/dark-chocolate" element={<DarkChocolate />} />
+                <Route path="/kids-chocolate" element={<KidsChocolate />} />
+                <Route path="/branches" element={<Branches />} />
+              </Routes>
+            </BrowserRouter>
+          </LanguageProvider>
+        </TooltipProvider>
+      </ThemeProvider>
+    </QueryClientProvider>
 );
 
 export default App;

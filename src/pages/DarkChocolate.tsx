@@ -8,7 +8,7 @@ const DarkChocolate = () => {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-black">
       <div className="container mx-auto px-4 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">

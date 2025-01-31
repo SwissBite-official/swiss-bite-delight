@@ -43,7 +43,7 @@ export const Products = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.2 }}
-      className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
+      className="bg-white dark:bg-black rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
     >
       <div className="aspect-[4/3] relative">
         <img
@@ -68,7 +68,7 @@ export const Products = () => {
   );
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
