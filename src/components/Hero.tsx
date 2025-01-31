@@ -14,7 +14,7 @@ const ChocolateDroplet = ({ delay }: { delay: number }) => (
       repeat: Infinity,
       repeatDelay: 4
     }}
-    className="absolute w-2 h-2 rounded-full bg-gradient-to-br from-[#4A2319] to-[#C6A961]"
+    className="absolute w-4 h-4 rounded shadow-lg bg-gradient-to-br from-[#4A2319] to-[#2E1810] before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-t before:from-transparent before:to-[rgba(255,255,255,0.1)] before:rounded"
   />
 );
 
@@ -23,7 +23,7 @@ export const Hero = () => {
   
   return (
     <section className="relative h-screen flex items-center justify-center bg-white overflow-hidden">
-      {/* Chocolate animation droplets */}
+      {/* Chocolate pieces animation */}
       <div className="absolute inset-0 pointer-events-none">
         <ChocolateDroplet delay={0} />
         <motion.div className="absolute left-1/4 top-0">
@@ -34,6 +34,12 @@ export const Hero = () => {
         </motion.div>
         <motion.div className="absolute right-1/4 top-0">
           <ChocolateDroplet delay={2.2} />
+        </motion.div>
+        <motion.div className="absolute left-1/3 top-0">
+          <ChocolateDroplet delay={3} />
+        </motion.div>
+        <motion.div className="absolute right-1/3 top-0">
+          <ChocolateDroplet delay={2.5} />
         </motion.div>
       </div>
       
