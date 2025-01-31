@@ -6,6 +6,8 @@ export const translations = {
     },
     products: {
       title: "Naše kolekce",
+      chocolateCategory: "Čokolády",
+      pralineCategory: "Pralinky",
       milkChocolate: {
         name: "Mléčná čokoláda",
         description: "Jemná a krémová švýcarská mléčná čokoláda, která se rozpouští na jazyku",
@@ -67,6 +69,8 @@ export const translations = {
     },
     products: {
       title: "Our Collection",
+      chocolateCategory: "Chocolates",
+      pralineCategory: "Pralines",
       milkChocolate: {
         name: "Milk Chocolate",
         description: "Smooth and creamy Swiss milk chocolate that melts in your mouth",
