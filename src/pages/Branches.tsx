@@ -44,11 +44,6 @@ const Branches = () => {
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">Environmental Commitment</h2>
-                            <p >{t('products.branches.environmental')}</p>
-                        </section>
-
-                        <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">Health Benefits</h2>
                             <p >{t('products.branches.health')}</p>
                         </section>
