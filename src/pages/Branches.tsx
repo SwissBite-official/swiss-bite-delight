@@ -34,22 +34,22 @@ const Branches = () => {
 
                     <div className="space-y-8">
                         <section>
-                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">Production Process</h2>
+                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">{t('products.branches.production_process')}</h2>
                             <p>{t('products.branches.production')}</p>
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">Flavor Profile</h2>
+                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">{t('products.branches.flavor_profile')}</h2>
                             <p >{t('products.branches.flavor')}</p>
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">Health Benefits</h2>
+                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">{t('products.branches.health_benefits')}</h2>
                             <p >{t('products.branches.health')}</p>
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">Ingredients</h2>
+                            <h2 className="text-2xl font-semibold text-swiss-red mb-4">{t('products.branches.ingredients_list')}</h2>
                             <p >{t('products.branches.ingredients')}</p>
                         </section>
 
