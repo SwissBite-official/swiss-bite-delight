@@ -64,44 +64,44 @@ const Branches = () => {
                                 <tr className="bg-swiss-red">
                                     <th className="border border-gray-300 p-2">{t('products.branches.nutrition_values')}</th>
                                     <th className="border border-gray-300 p-2">100 g</th>
-                                    <th className="border border-gray-300 p-2">{t('products.branches.portion')} (17 g)</th>
+                                    <th className="border border-gray-300 p-2">{t('products.branches.portion')} (27 g)</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td className="border border-gray-300 p-2">{t('products.branches.energy')}</td>
-                                    <td className="border border-gray-300 p-2">2242 kJ / 537 kcal</td>
-                                    <td className="border border-gray-300 p-2">381 kJ / 91 kcal (4,5%*)</td>
+                                    <td className="border border-gray-300 p-2">2259 kJ / 541 kcal</td>
+                                    <td className="border border-gray-300 p-2">610 kJ / 146 kcal (7,3%*)</td>
                                 </tr>
                                 <tr>
                                     <td className="border border-gray-300 p-2">{t('products.branches.fat')}</td>
-                                    <td className="border border-gray-300 p-2">30 g</td>
-                                    <td className="border border-gray-300 p-2">5,1 g (7%*)</td>
+                                    <td className="border border-gray-300 p-2">32 g</td>
+                                    <td className="border border-gray-300 p-2">8,6 g (12%*)</td>
                                 </tr>
                                 <tr>
                                     <td className="border border-gray-300 p-2 pl-4">{t('products.branches.fat_acid')}</td>
-                                    <td className="border border-gray-300 p-2">18 g</td>
-                                    <td className="border border-gray-300 p-2">3,1 g (15%*)</td>
+                                    <td className="border border-gray-300 p-2">16 g</td>
+                                    <td className="border border-gray-300 p-2">4,3 g (21%*)</td>
                                 </tr>
                                 <tr>
                                     <td className="border border-gray-300 p-2">{t('products.branches.Carbohydrates')}</td>
-                                    <td className="border border-gray-300 p-2">61 g</td>
-                                    <td className="border border-gray-300 p-2">10 g (4%*)</td>
+                                    <td className="border border-gray-300 p-2">55 g</td>
+                                    <td className="border border-gray-300 p-2">15 g (6%*)</td>
                                 </tr>
                                 <tr>
                                     <td className="border border-gray-300 p-2 pl-4">{t('products.branches.sugar')}</td>
-                                    <td className="border border-gray-300 p-2">56 g</td>
-                                    <td className="border border-gray-300 p-2">9,5 g (11%*)</td>
+                                    <td className="border border-gray-300 p-2">53 g</td>
+                                    <td className="border border-gray-300 p-2">14,3 g (16%*)</td>
                                 </tr>
                                 <tr>
                                     <td className="border border-gray-300 p-2">Protein</td>
-                                    <td className="border border-gray-300 p-2">4,8 g</td>
-                                    <td className="border border-gray-300 p-2">0,8 g (1,5%*)</td>
+                                    <td className="border border-gray-300 p-2">6,7 g</td>
+                                    <td className="border border-gray-300 p-2">1,8 g (3,6%*)</td>
                                 </tr>
                                 <tr>
                                     <td className="border border-gray-300 p-2">{t('products.branches.salt')}</td>
                                     <td className="border border-gray-300 p-2">0,16 g</td>
-                                    <td className="border border-gray-300 p-2">0,03 g (&lt;1%*)</td>
+                                    <td className="border border-gray-300 p-2">0,04 g (&lt;1%*)</td>
                                 </tr>
                                 </tbody>
                             </table>
