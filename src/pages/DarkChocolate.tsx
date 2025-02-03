@@ -60,7 +60,7 @@ const DarkChocolate = () => {
             <section className="flex justify-center">
               <table className="w-full max-w-4xl border-collapse border border-gray-300">
                 <thead>
-                <tr className="bg-gray-200">
+                <tr className="bg-swiss-red">
                   <th className="border border-gray-300 p-2">{t('products.darkChocolate.nutrition_values')}</th>
                   <th className="border border-gray-300 p-2">100 g</th>
                   <th className="border border-gray-300 p-2">{t('products.darkChocolate.portion')} (17 g)</th>
