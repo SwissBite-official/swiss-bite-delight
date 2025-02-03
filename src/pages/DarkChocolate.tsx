@@ -53,6 +53,11 @@ const DarkChocolate = () => {
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Health Benefits</h2>
               <p className="text-gray-700">{t('products.darkChocolate.health')}</p>
             </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-swiss-red mb-4">Ingredients</h2>
+              <p className="text-gray-700">{t('products.darkChocolate.ingredients')}</p>
+            </section>
           </div>
         </motion.div>
       </div>

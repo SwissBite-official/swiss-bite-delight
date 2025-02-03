@@ -12,7 +12,7 @@ export const translations = {
                 name: "Mléčná čokoláda",
                 description: "Jemná a krémová švýcarská mléčná čokoláda, která se rozpouští na jazyku",
                 production: "Vyrobeno z nejkvalitnějších přírodních ingrediencí",
-                ingredients: "Používáme pouze certifikované kakaové boby",
+                ingredients: "cukr, kakaové máslo*, sušené odstředěné mléko 11%, kakaová hmota*, máselný tuk, emulgátor: lecitiny, přírodní aroma. Může obsahovat stopy sóji, lískových ořechů, mandlí, kešu, makadamových ořechů, pekanových ořechů, pistácií a vlašských ořechů.",
                 flavor: "Lahodná, krémová chuť s jemnou mléčnou notou",
                 environmental: "Používáme recyklované materiály pro minimální dopad na životní prostředí",
                 health: "Obsahuje antioxidanty a podporuje dobrou náladu"
@@ -21,7 +21,7 @@ export const translations = {
                 name: "Hořká čokoláda",
                 description: "Bohatá a intenzivní hořká čokoláda pro náročné milovníky čokolády",
                 production: "Vyrobeno tradičním švýcarským způsobem",
-                ingredients: "70% kakaa z udržitelných zdrojů",
+                ingredients: "cukr, kakaová hmota*, kakaové máslo*, emulgátor: lecithin, přírodní aroma. Může obsahovat stopy sóji, mléka a ovoce s tvrdou skořápkou (ořechy)",
                 flavor: "Intenzivní chuť s dlouhotrvajícím závěrem",
                 environmental: "Ekologicky šetrná výroba a balení",
                 health: "Bohatá na antioxidanty a flavonoidy"
@@ -30,7 +30,7 @@ export const translations = {
                 name: "Dětská verze",
                 description: "Zábavná a lahodná čokoláda perfektní pro malé milovníky čokolády",
                 production: "Vyrobeno speciálně pro děti",
-                ingredients: "Pouze přírodní ingredience bez umělých přísad",
+                ingredients: "cukr, kakaové máslo*, sušené odstředěné mléko 11%, kakaová hmota*, máselný tuk, emulgátor: lecitiny, přírodní aroma. Může obsahovat stopy sóji, lískových ořechů, mandlí, kešu, makadamových ořechů, pekanových ořechů, pistácií a vlašských ořechů.",
                 flavor: "Jemná a sladká chuť",
                 environmental: "Recyklovatelné obaly s edukativními prvky",
                 health: "Vyvážený obsah cukru a kvalitního kakaa"
