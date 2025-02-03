@@ -30,11 +30,50 @@ export const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="text-lg text-gray-600 mb-12"
+            className="text-lg text-gray-600 mb-6"
           >
             {t('about.text2')}
           </motion.p>
-          
+
+          <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="text-lg text-gray-600 mb-6"
+          >
+            {t('about.text3')}
+          </motion.p>
+
+          <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="text-lg text-gray-600 mb-6"
+          >
+            {t('about.text4')}
+          </motion.p>
+
+          <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="text-lg text-gray-600 mb-6"
+          >
+            {t('about.text5')}
+          </motion.p>
+
+          <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="text-lg text-gray-600 mb-6"
+          >
+            {t('about.text6')}
+          </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
