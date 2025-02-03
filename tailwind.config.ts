@@ -18,6 +18,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        helvetica: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
+      },
       colors: {
         swiss: {
           red: "#D52B1E",
