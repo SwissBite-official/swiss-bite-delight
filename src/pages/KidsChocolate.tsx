@@ -35,27 +35,27 @@ const KidsChocolate = () => {
           <div className="space-y-8">
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Production Process</h2>
-              <p className="text-gray-700">{t('products.kidsVersion.production')}</p>
+              <p >{t('products.kidsVersion.production')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Flavor Profile</h2>
-              <p className="text-gray-700">{t('products.kidsVersion.flavor')}</p>
+              <p >{t('products.kidsVersion.flavor')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Environmental Commitment</h2>
-              <p className="text-gray-700">{t('products.kidsVersion.environmental')}</p>
+              <p >{t('products.kidsVersion.environmental')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Health Benefits</h2>
-              <p className="text-gray-700">{t('products.kidsVersion.health')}</p>
+              <p >{t('products.kidsVersion.health')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Ingredients</h2>
-              <p className="text-gray-700">{t('products.kidsVersion.ingredients')}</p>
+              <p >{t('products.kidsVersion.ingredients')}</p>
             </section>
             <section className="flex justify-center">
               <table className="w-full max-w-4xl border-collapse border border-gray-300">

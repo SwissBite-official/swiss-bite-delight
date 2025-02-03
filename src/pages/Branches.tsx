@@ -35,27 +35,27 @@ const Branches = () => {
                     <div className="space-y-8">
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">Production Process</h2>
-                            <p className="text-gray-700">{t('products.branches.production')}</p>
+                            <p>{t('products.branches.production')}</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">Flavor Profile</h2>
-                            <p className="text-gray-700">{t('products.branches.flavor')}</p>
+                            <p >{t('products.branches.flavor')}</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">Environmental Commitment</h2>
-                            <p className="text-gray-700">{t('products.branches.environmental')}</p>
+                            <p >{t('products.branches.environmental')}</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">Health Benefits</h2>
-                            <p className="text-gray-700">{t('products.branches.health')}</p>
+                            <p >{t('products.branches.health')}</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">Ingredients</h2>
-                            <p className="text-gray-700">{t('products.branches.ingredients')}</p>
+                            <p >{t('products.branches.ingredients')}</p>
                         </section>
 
                         <section className="flex justify-center">

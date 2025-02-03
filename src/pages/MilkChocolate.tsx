@@ -35,26 +35,26 @@ const MilkChocolate = () => {
           <div className="space-y-8">
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Production Process</h2>
-              <p className="text-gray-700">{t('products.milkChocolate.production')}</p>
+              <p >{t('products.milkChocolate.production')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Flavor Profile</h2>
-              <p className="text-gray-700">{t('products.milkChocolate.flavor')}</p>
+              <p >{t('products.milkChocolate.flavor')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Environmental Commitment</h2>
-              <p className="text-gray-700">{t('products.milkChocolate.environmental')}</p>
+              <p >{t('products.milkChocolate.environmental')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Health Benefits</h2>
-              <p className="text-gray-700">{t('products.milkChocolate.health')}</p>
+              <p >{t('products.milkChocolate.health')}</p>
             </section>
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Ingredients</h2>
-              <p className="text-gray-700">{t('products.milkChocolate.ingredients')}</p>
+              <p >{t('products.milkChocolate.ingredients')}</p>
             </section>
           </div>
         </motion.div>

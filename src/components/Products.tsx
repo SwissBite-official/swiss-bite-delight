@@ -56,7 +56,7 @@ export const Products = () => {
         <h3 className="text-xl font-semibold mb-2 text-swiss-red">
           {product.name}
         </h3>
-        <p className="text-gray-600">{product.description}</p>
+        <p>{product.description}</p>
         <button 
           onClick={() => navigate(product.path)}
           className="mt-4 px-6 py-2 bg-swiss-gold text-white rounded hover:bg-opacity-90 transition-colors"

@@ -35,27 +35,27 @@ const DarkChocolate = () => {
           <div className="space-y-8">
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Production Process</h2>
-              <p className="text-gray-700">{t('products.darkChocolate.production')}</p>
+              <p >{t('products.darkChocolate.production')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Flavor Profile</h2>
-              <p className="text-gray-700">{t('products.darkChocolate.flavor')}</p>
+              <p >{t('products.darkChocolate.flavor')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Environmental Commitment</h2>
-              <p className="text-gray-700">{t('products.darkChocolate.environmental')}</p>
+              <p >{t('products.darkChocolate.environmental')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Health Benefits</h2>
-              <p className="text-gray-700">{t('products.darkChocolate.health')}</p>
+              <p >{t('products.darkChocolate.health')}</p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-swiss-red mb-4">Ingredients</h2>
-              <p className="text-gray-700">{t('products.darkChocolate.ingredients')}</p>
+              <p >{t('products.darkChocolate.ingredients')}</p>
             </section>
             <section className="flex justify-center">
               <table className="w-full max-w-4xl border-collapse border border-gray-300">

@@ -21,7 +21,7 @@ export const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-gray-600 mb-6"
+            className="text-lg text-gray-600 dark:text-gray-100 mb-6"
           >
             {t('about.text1')}
           </motion.p>
@@ -30,7 +30,7 @@ export const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="text-lg text-gray-600 mb-6"
+            className="text-lg text-gray-600 dark:text-gray-100 mb-6"
           >
             {t('about.text2')}
           </motion.p>
@@ -40,7 +40,7 @@ export const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="text-lg text-gray-600 mb-6"
+              className="text-lg text-gray-600 dark:text-gray-100 mb-6"
           >
             {t('about.text3')}
           </motion.p>
@@ -50,7 +50,7 @@ export const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="text-lg text-gray-600 mb-6"
+              className="text-lg text-gray-600 dark:text-gray-100 mb-6"
           >
             {t('about.text4')}
           </motion.p>
@@ -60,7 +60,7 @@ export const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="text-lg text-gray-600 mb-6"
+              className="text-lg text-gray-600 dark:text-gray-100 mb-6"
           >
             {t('about.text5')}
           </motion.p>
@@ -70,7 +70,7 @@ export const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3 }}
-              className="text-lg text-gray-600 mb-6"
+              className="text-lg text-gray-600 dark:text-gray-100 mb-6"
           >
             {t('about.text6')}
           </motion.p>
@@ -84,7 +84,7 @@ export const About = () => {
             <h3 className="text-2xl font-bold mb-4 text-swiss-red dark:text-swiss-gold">
               {t('about.team.title')}
             </h3>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg">
               {t('about.team.description')}
             </p>
           </motion.div>
