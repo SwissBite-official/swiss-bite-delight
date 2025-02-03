@@ -108,6 +108,17 @@ const Branches = () => {
                         </section>
                     </div>
                 </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="max-w-4xl mx-auto"
+                >
+                    <div className="space-y-8">
+                        <section>
+                            <p >{t('products.branches.recommended')}</p>
+                        </section>
+                    </div>
+                </motion.div>
             </div>
         </div>
     );

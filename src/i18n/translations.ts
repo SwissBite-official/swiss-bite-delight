@@ -24,12 +24,13 @@ export const translations = {
                 sugar: "- z toho cukry",
                 salt: "Sůl",
                 portion: "Na porci",
+                recommended: "*Referenční příjem pro průměrného dospělého (8400 kJ / 2000 kcal).",
             },
             darkChocolate: {
                 name: "Hořká čokoláda",
                 description: "Bohatá a intenzivní hořká čokoláda pro náročné milovníky čokolády",
                 production: "Vyrobeno tradičním švýcarským způsobem",
-                ingredients: "Cukr, kakaová hmota⁺, kakaové máslo*, emulgátor: lecithin, přírodní aroma. Může obsahovat stopy sóji, mléka a ovoce s tvrdou skořápkou (ořechy). ⁺ Certifikováno Rainforest Alliance",
+                ingredients: "Cukr, kakaová hmota⁺, kakaové máslo⁺, emulgátor: lecithin, přírodní aroma. Může obsahovat stopy sóji, mléka a ovoce s tvrdou skořápkou (ořechy). ⁺ Certifikováno Rainforest Alliance",
                 flavor: "Intenzivní chuť s dlouhotrvajícím závěrem",
                 environmental: "Ekologicky šetrná výroba a balení",
                 health: "Tmavá čokoláda je lahodná a výživná pochoutka plná zdravotních benefitů. Bohatá na antioxidanty, jako jsou flavonoidy, pomáhá snižovat záněty, zlepšovat zdraví srdce snížením krevního tlaku a podporovat mozkové funkce zvýšením průtoku krve. Působí také jako povzbuzovač nálady díky sloučeninám, které stimulují tvorbu endorfinů a serotoninu. Kromě toho tmavá čokoláda podporuje zdraví střev tím, že vyživuje prospěšné bakterie, a dodává důležité minerály, jako je železo a hořčík. Abyste využili jejích benefitů, vybírejte tmavou čokoládu s obsahem kakaa alespoň 40 % a vychutnávejte si jeden dva čtverečky s mírou. Dopřávejte si ji rozumně pro její chuť i zdravotní přínosy!",
@@ -41,6 +42,7 @@ export const translations = {
                 sugar: "- z toho cukry",
                 salt: "Sůl",
                 portion: "Na porci",
+                recommended: "*Referenční příjem pro průměrného dospělého (8400 kJ / 2000 kcal).",
             },
             kidsVersion: {
                 name: "Dětská verze",
@@ -58,6 +60,7 @@ export const translations = {
                 sugar: "- z toho cukry",
                 salt: "Sůl",
                 portion: "Na porci",
+                recommended: "*Referenční příjem pro průměrného dospělého (8400 kJ / 2000 kcal).",
             },
             branches: {
                 name: "Branches",
@@ -75,6 +78,7 @@ export const translations = {
                 sugar: "- z toho cukry",
                 salt: "Sůl",
                 portion: "Na porci",
+                recommended: "*Referenční příjem pro průměrného dospělého (8400 kJ / 2000 kcal).",
             },
             learnMore: "Zjistit více",
             backToHome: "Zpět na hlavní stránku"
@@ -123,12 +127,13 @@ export const translations = {
                 sugar: "- of which sugars",
                 salt: "Salt",
                 portion: "Per serving",
+                recommended: "*Reference Intake (RI) of an average adult (8400kJ/2000kcal)",
             },
             darkChocolate: {
                 name: "Dark Chocolate",
                 description: "Rich and intense dark chocolate for sophisticated palates",
                 production: "Made using traditional Swiss methods",
-                ingredients: "Sugar, cocoa mass⁺, cocoa butter*, emulsifier: lecithin, natural flavor. May contain traces of soy, milk and tree nuts. ⁺ Rainforest Alliance Certified",
+                ingredients: "Sugar, cocoa mass⁺, cocoa butter⁺, emulsifier: lecithin, natural flavor. May contain traces of soy, milk and tree nuts. ⁺ Rainforest Alliance Certified",
                 flavor: "Intense taste with a long-lasting finish",
                 environmental: "Eco-friendly production and packaging",
                 health: "Dark chocolate is a delicious and nutritious treat packed with health benefits. Rich in antioxidants like flavonoids, it helps reduce inflammation, improve heart health by lowering blood pressure, and boost brain function by enhancing blood flow. It also acts as a mood enhancer, thanks to compounds that stimulate endorphins and serotonin. Additionally, dark chocolate supports gut health by feeding beneficial bacteria and provides essential minerals like iron and magnesium. To enjoy its benefits, choose dark chocolate with at least 40% cocoa and savor a square or two in moderation. Indulge wisely for both taste and health!",
@@ -140,6 +145,7 @@ export const translations = {
                 sugar: "- of which sugars",
                 salt: "Salt",
                 portion: "Per serving",
+                recommended: "*Reference Intake (RI) of an average adult (8400kJ/2000kcal)",
             },
             kidsVersion: {
                 name: "Kids Version",
@@ -157,6 +163,7 @@ export const translations = {
                 sugar: "- of which sugars",
                 salt: "Salt",
                 portion: "Per serving",
+                recommended: "*Reference Intake (RI) of an average adult (8400kJ/2000kcal)",
             },
             branches: {
                 name: "Branches",
@@ -174,6 +181,7 @@ export const translations = {
                 sugar: "- of which sugars",
                 salt: "Salt",
                 portion: "Per serving",
+                recommended: "*Reference Intake (RI) of an average adult (8400kJ/2000kcal)",
             },
             learnMore: "Learn More",
             backToHome: "Back to Home"
