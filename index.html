@@ -15,11 +15,14 @@
         if (metaTag) {
             const imagePath = `${baseUrl}logo.png`;
             metaTag.setAttribute('content', imagePath);
+            console.log('Link tag updated:', metaTag.outerHTML);
         }
 
         if (linkTag) {
             const iconPath = `${baseUrl}logo.png`;
             linkTag.setAttribute('href', iconPath);
+            linkTag.setAttribute('type', "image/x-icon");
+            console.log('Link tag updated:', linkTag.outerHTML);
         }
     </script>
     <meta property="og:title" content="SwissBite"/>
