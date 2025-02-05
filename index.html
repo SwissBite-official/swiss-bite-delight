@@ -8,20 +8,18 @@
           content="Indulge in the rich, creamy taste of SwissBite – the finest Swiss chocolate crafted with premium ingredients. Experience the authentic flavor of Switzerland in every bite. Perfect for gifting or savoring your sweet moments."/>
     <meta name="author" content="SwissBite"/>
     <script>
-        // Embed the environment variable in the HTML
-        const envVar = "Hello"; // Replace this with your actual environment variable
-        const concatenatedString = envVar + " World!";
-        console.log(concatenatedString); // Output: "Hello World!"
-    </script>
-    <script>
-        // Select the meta tag with property="og:image"
         const metaTag = document.querySelector('meta[property="og:image"]');
+        const linkTag = document.querySelector('link[rel="icon"]');
+        const baseUrl = import.meta.env.BASE_URL || '/';
 
-        // Change the content attribute
         if (metaTag) {
-            const baseUrl = import.meta.env.BASE_URL || '/';
-            const imagePath = `${baseUrl}new-logo.png`;
+            const imagePath = `${baseUrl}logo.png`;
             metaTag.setAttribute('content', imagePath);
+        }
+
+        if (linkTag) {
+            const iconPath = `${baseUrl}logo.png`; 
+            linkTag.setAttribute('href', iconPath);
         }
     </script>
     <meta property="og:title" content="SwissBite"/>
