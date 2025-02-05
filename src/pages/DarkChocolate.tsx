@@ -27,7 +27,7 @@ const DarkChocolate = () => {
           </h1>
 
           <img
-            src="/dark_wide.jpg"
+              src= {import.meta.env.BASE_URL + "/dark_wide.jpg"}
             alt={t('products.darkChocolate.name')}
             className="w-full h-64 object-cover rounded-lg mb-8"
           />

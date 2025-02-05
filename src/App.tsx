@@ -27,11 +27,11 @@ const App = () => (
     <ThemeProvider defaultTheme={getSystemTheme()} storageKey="vite-ui-theme">
       <TooltipProvider>
         <LanguageProvider>
-          <BrowserRouter>
+          <BrowserRouter basename={import.meta.env.BASE_URL}>
             <ThemeToggle />
             <Toaster />
             <Sonner />
-            <Routes>
+            <Routes >
               <Route path="/" element={<Index />} />
               <Route path="/milk-chocolate" element={<MilkChocolate />} />
               <Route path="/dark-chocolate" element={<DarkChocolate />} />

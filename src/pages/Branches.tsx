@@ -27,7 +27,7 @@ const Branches = () => {
                     </h1>
 
                     <img
-                        src="/branches_wide.jpg"
+                        src={import.meta.env.BASE_URL + "/branches_wide.jpg"}
                         alt={t('products.branches.name')}
                         className="w-full h-64 object-cover rounded-lg mb-8"
                     />
@@ -40,17 +40,17 @@ const Branches = () => {
 
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">{t('products.branches.flavor_profile')}</h2>
-                            <p >{t('products.branches.flavor')}</p>
+                            <p>{t('products.branches.flavor')}</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">{t('products.branches.health_benefits')}</h2>
-                            <p >{t('products.branches.health')}</p>
+                            <p>{t('products.branches.health')}</p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-semibold text-swiss-red mb-4">{t('products.branches.ingredients_list')}</h2>
-                            <p >{t('products.branches.ingredients')}</p>
+                            <p>{t('products.branches.ingredients')}</p>
                         </section>
 
                         <section className="flex justify-center">
@@ -59,7 +59,8 @@ const Branches = () => {
                                 <tr className="bg-swiss-red">
                                     <th className="border border-gray-300 p-2">{t('products.branches.nutrition_values')}</th>
                                     <th className="border border-gray-300 p-2">100 g</th>
-                                    <th className="border border-gray-300 p-2">{t('products.branches.portion')} (27 g)</th>
+                                    <th className="border border-gray-300 p-2">{t('products.branches.portion')} (27 g)
+                                    </th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -104,13 +105,13 @@ const Branches = () => {
                     </div>
                 </motion.div>
                 <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    initial={{opacity: 0, y: 20}}
+                    animate={{opacity: 1, y: 0}}
                     className="max-w-4xl mx-auto"
                 >
                     <div className="space-y-8">
                         <section>
-                            <p >{t('products.branches.recommended')}</p>
+                            <p>{t('products.branches.recommended')}</p>
                         </section>
                     </div>
                 </motion.div>

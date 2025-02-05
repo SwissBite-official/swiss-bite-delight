@@ -19,7 +19,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          src="/logo.png"
+          src={import.meta.env.BASE_URL + "/logo.png"}
           alt="Swiss Bite Logo"
           className="w-64 md:w-96 mb-8 hover:scale-105 transition-transform duration-300"
         />

@@ -27,7 +27,7 @@ const KidsChocolate = () => {
           </h1>
 
           <img
-            src="/kids_wide.jpg"
+              src= {import.meta.env.BASE_URL + "/kids_wide.jpg"}
             alt={t('products.kidsVersion.name')}
             className="w-full h-64 object-cover rounded-lg mb-8"
           />
