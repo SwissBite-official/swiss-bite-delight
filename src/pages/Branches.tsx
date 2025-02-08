@@ -27,7 +27,7 @@ const Branches = () => {
                     </h1>
 
                     <img
-                        src={import.meta.env.BASE_URL + "/branches_wide.jpg"}
+                        src={import.meta.env.BASE_URL + "./branches_wide.jpg"}
                         alt={t('products.branches.name')}
                         className="w-full h-64 object-cover rounded-lg mb-8"
                     />

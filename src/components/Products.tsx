@@ -10,19 +10,19 @@ export const Products = () => {
     {
       name: t('products.milkChocolate.name'),
       description: t('products.milkChocolate.description'),
-      image: `${import.meta.env.BASE_URL}` +"/milk-chocolate.jpg",
+      image: `${import.meta.env.BASE_URL}` +"./milk-chocolate.jpg",
       path: "/milk-chocolate"
     },
     {
       name: t('products.darkChocolate.name'),
       description: t('products.darkChocolate.description'),
-      image: `${import.meta.env.BASE_URL}` +"/dark-chocolate.jpg",
+      image: `${import.meta.env.BASE_URL}` +"./dark-chocolate.jpg",
       path: "/dark-chocolate"
     },
     {
       name: t('products.kidsVersion.name'),
       description: t('products.kidsVersion.description'),
-      image: `${import.meta.env.BASE_URL}` +"/kids-chocolate.jpg",
+      image: `${import.meta.env.BASE_URL}` +"./kids-chocolate.jpg",
       path: "/kids-chocolate"
     },
   ];
@@ -31,7 +31,7 @@ export const Products = () => {
     {
       name: t('products.branches.name'),
       description: t('products.branches.description'),
-      image: `${import.meta.env.BASE_URL}` +"/branches.jpg",
+      image: `${import.meta.env.BASE_URL}` +"./branches.jpg",
       path: "/branches"
     },
   ];
