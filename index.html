@@ -7,27 +7,11 @@
     <meta name="description"
           content="Indulge in the rich, creamy taste of SwissBite – the finest Swiss chocolate crafted with premium ingredients. Experience the authentic flavor of Switzerland in every bite. Perfect for gifting or savoring your sweet moments."/>
     <meta name="author" content="SwissBite"/>
-    <script>
-        const metaTag = document.querySelector('meta[property="og:image"]');
-        const linkTag = document.querySelector('link[rel="icon"]');
-        const baseUrl = import.meta.env.BASE_URL || '/';
-
-        if (metaTag) {
-            const imagePath = `${baseUrl}logo.png`;
-            metaTag.setAttribute('content', imagePath);
-            console.log('Link tag updated:', metaTag.outerHTML);
-        }
-
-        if (linkTag) {
-            const iconPath = `${baseUrl}logo.png`;
-            linkTag.setAttribute('href', iconPath);
-            linkTag.setAttribute('type', "image/x-icon");
-            console.log('Link tag updated:', linkTag.outerHTML);
-        }
-    </script>
+    <meta property="og:image" content="/logo.png"/>
     <meta property="og:title" content="SwissBite"/>
-  <script type="module" crossorigin src="/swiss-bite-delight/assets/index-C32f4NyO.js"></script>
-  <link rel="stylesheet" crossorigin href="/swiss-bite-delight/assets/index-D2c16mPb.css">
+    <link rel="icon" href="/logo.png" type="image/x-icon"/>
+  <script type="module" crossorigin src="/assets/index-B4Zs3jPo.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D2c16mPb.css">
 </head>
 
 <body>
