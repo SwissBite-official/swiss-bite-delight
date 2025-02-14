@@ -3,9 +3,14 @@ import {useLanguage} from "@/contexts/LanguageContext";
 import {Link} from "react-router-dom";
 import {Button} from "@/components/ui/button";
 import {ArrowLeft} from "lucide-react";
+import {useEffect} from "react";
 
 const MilkChocolate = () => {
     const {t} = useLanguage();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="min-h-screen bg-white dark:bg-black">
