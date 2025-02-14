@@ -2,7 +2,7 @@ import {motion} from "framer-motion";
 import {useLanguage} from "@/contexts/LanguageContext";
 import {Link} from "react-router-dom";
 import {Button} from "@/components/ui/button";
-import {ArrowLeft} from "lucide-react";
+import {ArrowLeft, Tag} from "lucide-react";
 import {useEffect} from "react";
 
 const DarkChocolate = () => {
@@ -27,9 +27,30 @@ const DarkChocolate = () => {
                     animate={{opacity: 1, y: 0}}
                     className="max-w-4xl mx-auto"
                 >
-                    <h1 className="text-4xl font-bold text-swiss-red mb-8">
-                        {t('products.darkChocolate.name')}
-                    </h1>
+                    <div className="flex flex-col md:flex-row justify-between items-start mb-8">
+                        <h1 className="text-4xl font-bold text-swiss-red mb-4 md:mb-0">
+                            {t('products.darkChocolate.name')}
+                        </h1>
+
+                        {/* MSRP Section */}
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ delay: 0.2 }}
+                            className="bg-gradient-to-r from-swiss-gold/10 via-swiss-gold/20 to-swiss-gold/10 p-4 rounded-lg border border-swiss-gold/30 backdrop-blur-sm"
+                        >
+                            <div className="flex items-center gap-2 mb-2">
+                                <Tag className="h-5 w-5 text-swiss-gold" />
+                                <span className="text-sm font-medium text-swiss-gold">{t('products.darkChocolate.price')}</span>
+                            </div>
+                            <div className="text-3xl font-bold text-swiss-red">
+                                150 {t('products.darkChocolate.currency')}
+                            </div>
+                            <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                                {t('products.darkChocolate.price_note')}
+                            </div>
+                        </motion.div>
+                    </div>
 
                     <img
                         src={import.meta.env.BASE_URL + "./dark_wide.jpg"}

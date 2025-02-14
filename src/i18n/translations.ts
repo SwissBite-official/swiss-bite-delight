@@ -9,6 +9,9 @@ export const translations = {
             chocolateCategory: "Čokolády",
             pralineCategory: "Pralinky",
             milkChocolate: {
+                price: "Akční cena",
+                currency: "Kč",
+                price_note: "Časově omezená nabídka",
                 production_process: "Výrobní proces",
                 name: "Mléčná čokoláda",
                 flavor_profile: "Chuťový profil",
@@ -32,6 +35,9 @@ export const translations = {
                 recommended: "*Referenční příjem pro průměrného dospělého (8400 kJ / 2000 kcal).",
             },
             darkChocolate: {
+                price: "Akční cena",
+                currency: "Kč",
+                price_note: "Časově omezená nabídka",
                 name: "Hořká čokoláda",
                 production_process: "Výrobní proces",
                 flavor_profile: "Chuťový profil",
@@ -55,6 +61,9 @@ export const translations = {
                 recommended: "*Referenční příjem pro průměrného dospělého (8400 kJ / 2000 kcal).",
             },
             kidsVersion: {
+                price: "Akční cena",
+                currency: "Kč",
+                price_note: "Časově omezená nabídka",
                 name: "Dětská verze",
                 production_process: "Výrobní proces",
                 flavor_profile: "Chuťový profil",
@@ -78,6 +87,9 @@ export const translations = {
                 recommended: "*Referenční příjem pro průměrného dospělého (8400 kJ / 2000 kcal).",
             },
             branches: {
+                price: "Akční cena",
+                currency: "Kč",
+                price_note: "Časově omezená nabídka",
                 name: "Branches",
                 production_process: "Výrobní proces",
                 flavor_profile: "Chuťový profil",
@@ -131,6 +143,9 @@ export const translations = {
             chocolateCategory: "Chocolates",
             pralineCategory: "Pralines",
             milkChocolate: {
+                price: "Promotional Price",
+                currency: "CZK",
+                price_note: "Limited Time Offer",
                 name: "Milk Chocolate",
                 production_process: "Production Process",
                 flavor_profile: "Flavor Profile",
@@ -154,6 +169,9 @@ export const translations = {
                 recommended: "*Reference Intake (RI) of an average adult (8400kJ/2000kcal)",
             },
             darkChocolate: {
+                price: "Promotional Price",
+                currency: "CZK",
+                price_note: "Limited Time Offer",
                 name: "Dark Chocolate",
                 production_process: "Production Process",
                 flavor_profile: "Flavor Profile",
@@ -177,6 +195,9 @@ export const translations = {
                 recommended: "*Reference Intake (RI) of an average adult (8400kJ/2000kcal)",
             },
             kidsVersion: {
+                price: "Promotional Price",
+                currency: "CZK",
+                price_note: "Limited Time Offer",
                 name: "Kids Version",
                 production_process: "Production Process",
                 flavor_profile: "Flavor Profile",
@@ -200,6 +221,9 @@ export const translations = {
                 recommended: "*Reference Intake (RI) of an average adult (8400kJ/2000kcal)",
             },
             branches: {
+                price: "Promotional Price",
+                currency: "CZK",
+                price_note: "Limited Time Offer",
                 name: "Branches",
                 production_process: "Production Process",
                 flavor_profile: "Flavor Profile",

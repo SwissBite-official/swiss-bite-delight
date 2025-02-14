@@ -42,13 +42,13 @@ const MilkChocolate = () => {
                         >
                             <div className="flex items-center gap-2 mb-2">
                                 <Tag className="h-5 w-5 text-swiss-gold" />
-                                <span className="text-sm font-medium text-swiss-gold">Promotional Price</span>
+                                <span className="text-sm font-medium text-swiss-gold">{t('products.milkChocolate.price')}</span>
                             </div>
                             <div className="text-3xl font-bold text-swiss-red">
-                                150 CZK
+                                150 {t('products.milkChocolate.currency')}
                             </div>
                             <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                                Limited Time Offer
+                                {t('products.milkChocolate.price_note')}
                             </div>
                         </motion.div>
                     </div>
