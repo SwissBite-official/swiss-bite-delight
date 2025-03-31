@@ -11,6 +11,7 @@ import MilkChocolate from "./pages/MilkChocolate";
 import DarkChocolate from "./pages/DarkChocolate";
 import KidsChocolate from "./pages/KidsChocolate";
 import Branches from "@/pages/Branches.tsx";
+import Error from "@/pages/Error.tsx";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
               <Route path="/dark-chocolate" element={<DarkChocolate />} />
               <Route path="/kids-chocolate" element={<KidsChocolate />} />
               <Route path="/branches" element={<Branches />} />
+              <Route path="/*" element={<Error />} />
             </Routes>
           </BrowserRouter>
         </LanguageProvider>
